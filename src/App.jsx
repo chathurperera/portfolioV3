@@ -1,11 +1,12 @@
-import React from 'react'
-import './App.scss';
+import React from "react";
+import "./App.scss";
+import HeroSection from "./components/HeroSection";
 const App = () => {
   return (
-    <div className={styles.app}>
+    <>
+      <HeroSection />
+    </>
+  );
+};
 
-    </div>
-  )
-}
-
-export default App
+export default App;
