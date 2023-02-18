@@ -4,9 +4,12 @@ import styles from "./Navbar.module.scss";
 const Navbar = () => {
   return (
     <nav>
-      <div>DAVE.</div>
-      <ul></ul>
-      <h1>Hello</h1>
+      <div className={styles.logo}>DAVE.</div>
+      <ul>
+        <li>About</li>
+        <li>Work</li>
+        <li>Contact</li>
+      </ul>
     </nav>
   );
 };
