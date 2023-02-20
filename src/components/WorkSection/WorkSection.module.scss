@@ -1,0 +1,28 @@
+@import "../../assets/styles/mixins.scss";
+
+.workSection {
+  @include sectionWrapper;
+  background-color: #fff;
+  .marquee{
+    border: 1px solid;
+    display: flex;
+    &__group{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      overflow: hidden;
+      p {
+        font-size: 100px;
+        margin: 0;
+        
+        &:nth-child(odd) {
+          color: #cbcbcb;
+        }
+        &:nth-child(even) {
+          color: #010203;
+        }
+      }
+      
+    }
+  }
+}

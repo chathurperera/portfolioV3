@@ -1,4 +1,7 @@
+@import "../../assets/styles/mixins.scss";
+
 .heroSection {
+  @include sectionWrapper;
   .container {
     position: relative;
     height: calc(100vh - 72px);
