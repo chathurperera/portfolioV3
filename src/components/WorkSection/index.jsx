@@ -1,4 +1,5 @@
 import React from "react";
+import RecentProject from "../RecentProject";
 import styles from "./WorkSection.module.scss";
 
 const WorkSection = () => {
@@ -14,6 +15,8 @@ const WorkSection = () => {
           <p>Work</p>
         </div>
       </div>
+      <div className={styles.subtitle}>Recent work</div>
+      <RecentProject />
     </section>
   );
 };

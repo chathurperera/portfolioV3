@@ -3,10 +3,9 @@
 .workSection {
   @include sectionWrapper;
   background-color: #fff;
-  .marquee{
-    border: 1px solid;
+  .marquee {
     display: flex;
-    &__group{
+    &__group {
       display: flex;
       align-items: center;
       gap: 20px;
@@ -14,7 +13,7 @@
       p {
         font-size: 100px;
         margin: 0;
-        
+
         &:nth-child(odd) {
           color: #cbcbcb;
         }
@@ -22,7 +21,13 @@
           color: #010203;
         }
       }
-      
     }
   }
+  .subtitle {
+    padding: 10px;
+    border-bottom: 1px solid #a7a7a7;
+    color: #a7a7a7;
+    font-size: 17px;
+  }
+  
 }
