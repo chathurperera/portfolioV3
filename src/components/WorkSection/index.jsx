@@ -1,4 +1,5 @@
 import React from "react";
+import ArchivedProject from "../ArchivedProject";
 import RecentProject from "../RecentProject";
 import styles from "./WorkSection.module.scss";
 
@@ -19,6 +20,9 @@ const WorkSection = () => {
       <RecentProject />
       <RecentProject />
       <RecentProject />
+      <ArchivedProject />
+      <ArchivedProject />
+      <ArchivedProject />
     </section>
   );
 };
