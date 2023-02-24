@@ -7,31 +7,31 @@ const RecentProject = () => {
   const demoArray = new Array(6).fill(0);
 
   return (
-    <div className="grid  gap-[20px] text-[#010203]">
-      <div className="col-span-3 ">
-        <div className="flex flex">
-          <div className={styles.count}>01</div>
-          <p>Alixs</p>
+    <div className="grid grid-cols-5 gap-[20px] text-[#010203] mb-11">
+      <div className="col-span-2">
+        <div className="flex items-end justify-center  relative">
+          <div className="absolute text-[30px] left-0 bottom-[15px]">01</div>
+          <p className="text-[50px] m-0 py-[10px] px-0">Alixs</p>
         </div>
-        <img src={mockup} alt="" />
+        <img src={mockup} className="w-full" alt="mock up" />
       </div>
-      <div className={styles.details}>
-        <div className={styles.detailsHead}>
+      <div className="col-span-3">
+        <div className="flex justify-between items-end">
           2022
-          <div className={styles.icons}>
-            <img src={linkIcon} className={styles.linkIcon} alt="" />
+          <div >
+            <img src={linkIcon} className="w-[50px] -rotate-45 hover:cursor-pointer" alt="" />
           </div>
         </div>
-        <div className="">
+        <div >
           <p className="text-4xl mt-7">
             With this ecommerce application I have used the MERN stack and
             implemented authorization with JSONwebtokens. Users have the option
             to filter out product lists according to their purchasing
             preferences.
           </p>
-          <div className="mt-5 flex align-middle gap-1">
+          <div className="mt-5 flex align-middle gap-2">
             {demoArray.map((num) => (
-              <div className="rounded-full text-[#c2bfbf] border-2 border-slate-700 border-solid py-1 p-2">
+              <div className="rounded-full text-[#888888] border-[1px] border-slate-700 border-solid py-1 p-2">
                 React js
               </div>
             ))}
