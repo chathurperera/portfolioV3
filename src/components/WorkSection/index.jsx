@@ -17,6 +17,8 @@ const WorkSection = () => {
       </div>
       <div className={styles.subtitle}>Recent work</div>
       <RecentProject />
+      <RecentProject />
+      <RecentProject />
     </section>
   );
 };
