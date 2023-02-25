@@ -17,9 +17,13 @@ const WorkSection = () => {
         </div>
       </div>
       <div className={styles.subtitle}>Recent work</div>
-      <RecentProject />
-      <RecentProject />
-      <RecentProject />
+      <div id={styles.cards} >
+        <RecentProject top={0}/>
+        <RecentProject top={75}/>
+        <RecentProject top={145}/>
+        <RecentProject top={0}/>
+        {/* <RecentProject top={175}/> */}
+      </div>
       <ArchivedProject />
       <ArchivedProject />
       <ArchivedProject />

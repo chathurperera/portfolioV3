@@ -1,16 +1,19 @@
 import React from "react";
-import styles from "./RecentProject.module.scss";
+import styles from "../WorkSection/WorkSection.module.scss";
 import mockup from "../../assets/images/image 7.png";
 import linkIcon from "../../assets/images/linkArrow.svg";
 
-const RecentProject = () => {
+const RecentProject = ({ top }) => {
   const demoArray = new Array(6).fill(0);
 
   return (
-    <div className="grid grid-cols-5 gap-[20px] text-[#010203] mb-12">
+    <div
+      style={{ top: top }}
+      className={`grid grid-cols-5 gap-[20px] text-[#010203] mb-12 ${styles.card}`}
+    >
       <div className="col-span-2">
         <div className="flex items-end justify-center  relative">
-          <div className="absolute text-[30px] left-0 bottom-[15px]">01</div>
+          <div className="absolute text-[30px] left-0 bottom-[15px] pl-5">01</div>
           <p className="text-[50px] m-0 py-[10px] px-0">Alixs</p>
         </div>
         <img src={mockup} className="w-full" alt="mock up" />
