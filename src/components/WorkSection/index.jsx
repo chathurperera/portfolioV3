@@ -20,7 +20,7 @@ const WorkSection = () => {
       <div id={styles.cards} >
         <RecentProject top={0}/>
         <RecentProject top={75}/>
-        <RecentProject top={145}/>
+        <RecentProject top={150}/>
         <RecentProject top={0}/>
         {/* <RecentProject top={175}/> */}
       </div>
