@@ -39,6 +39,7 @@ const RecentProject = () => {
             implemented authorization with JSONwebtokens. Users have the option
             to filter out product lists according to their purchasing
             preferences.
+            
           </p>
           <div className="mt-5 flex align-middle gap-2">
             {demoArray.map((num) => (
