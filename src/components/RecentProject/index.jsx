@@ -3,13 +3,13 @@ import styles from "../WorkSection/WorkSection.module.scss";
 import mockup from "../../assets/images/image 7.png";
 import linkIcon from "../../assets/images/linkArrow.svg";
 
-const RecentProject = ({ top }) => {
+const RecentProject = () => {
   const demoArray = new Array(6).fill(0);
 
   return (
     <div
-      style={{ top: top }}
-      className={`grid grid-cols-5 gap-[20px] text-[#010203] mb-12 ${styles.card}`}
+      className="grid grid-cols-5 gap-[20px] text-[#010203] border-solid 
+    border-[#0000001a] border-t-[1px] mb-5 pt-2"
     >
       <div className="col-span-2">
         <div className="flex items-end justify-center  relative">
@@ -43,9 +43,11 @@ const RecentProject = ({ top }) => {
           <div className="mt-5 flex align-middle gap-2">
             {demoArray.map((num) => (
               // box-shadow: rgba(0, 0, 0, 0.157) 0px 1px 4px;
-              <div className="
-               rounded-full text-[#888888] text-[.75rem] border-[1px] 
-               border-solid shadow-[0px_1px_4px_rgba(0, 0, 0, 0.157)] py-1 p-2">
+              <div
+                className="
+               rounded-full text-[#888888]   text-[.75rem] font-thin border-[1px] 
+               border-solid shadow-[0px_1px_4px_rgba(0, 0, 0, 0.157)] py-1 p-2 hover:bg-[#fafafa] hover:cursor-default  "
+              >
                 React js
               </div>
             ))}

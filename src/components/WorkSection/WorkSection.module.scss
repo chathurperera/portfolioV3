@@ -38,12 +38,12 @@
   }
   .card {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #0000001a;
     background-color: #fff;
     border-radius: 10px;
     // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-    position: sticky;
-    padding-top: calc(var(--index) * var(--card-top-offset));
+    // position: sticky;
+    // padding-top: calc(var(--index) * var(--card-top-offset));
     
   }
 }
