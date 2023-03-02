@@ -27,6 +27,7 @@ const WorkSection = () => {
       <ArchivedProject />
       <ArchivedProject />
       <ArchivedProject />
+      <ArchivedProject />
     </section>
   );
 };

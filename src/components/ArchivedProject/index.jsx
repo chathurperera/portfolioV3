@@ -2,8 +2,8 @@ import React from "react";
 
 const ArchivedProject = () => {
   return (
-    <div className="grid grid-cols-3 py-6 border-y-[1px] border-[#D2C5C5] items-center">
-      <div className="text-[#010203] text-[1.8rem]">
+    <div className="grid grid-cols-3 py-6 border-y-[1px] border-[#1c1d202d] items-center">
+      <div className="text-[#010203] text-[1.6rem] pr-[10px]">
         California Ecommerce website
       </div>
       <div className="text-[#0102037e]">
