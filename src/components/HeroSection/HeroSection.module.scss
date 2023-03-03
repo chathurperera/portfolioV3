@@ -3,10 +3,16 @@
 .heroSection {
   @include sectionWrapper;
   height: 100vh;
+  background-color: rgb(0, 0, 0);
+  background-image: url(/src/assets/background.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: fixed;
   .container {
     position: relative;
     height: calc(100vh - 72px);
     display: flex;
+    z-index: 10000;
     flex-direction: column;
     justify-content: space-between;
   }

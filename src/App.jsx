@@ -5,7 +5,7 @@ import HeroSection from "./components/HeroSection";
 import WorkSection from "./components/WorkSection";
 const App = () => {
   return (
-    <main >
+    <main className="relative">
       <HeroSection />
       <WorkSection />
       <Footer />
