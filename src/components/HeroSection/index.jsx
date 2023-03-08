@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className={styles.container}>
         <h1>Full stack developer who loves building things on the internet</h1>
         <div className={styles.bottom}>
-          <p>
+          <p className="font-['inter']">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             viverra, dui vel fermentum congue, metus turpis fermentum sapien,
             vitae tempor leo libero vitae nisi. Pellentesque tempor ac

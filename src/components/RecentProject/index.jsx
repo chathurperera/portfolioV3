@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../WorkSection/WorkSection.module.scss";
 import mockup from "../../assets/images/image 7.png";
 import linkIcon from "../../assets/images/linkArrow.svg";
+import githubIcon from "../../assets/images/github.png";
 
 const RecentProject = () => {
   const demoArray = new Array(6).fill(0);
@@ -25,7 +26,12 @@ const RecentProject = () => {
       <div className="col-span-3">
         <div className="flex justify-between items-end pt-3">
           2022
-          <div className="pr-2">
+          <div className="pr-2 flex justify-center items-center">
+            <img
+              src={githubIcon}
+              className="w-[30px] hover:cursor-pointer mb-1"
+              alt=""
+            />
             <img
               src={linkIcon}
               className="w-[50px] -rotate-45 hover:cursor-pointer"
