@@ -5,11 +5,13 @@ import HeroSection from "./components/HeroSection";
 import WorkSection from "./components/WorkSection";
 const App = () => {
   return (
-    <main className="relative">
-      <HeroSection />
-      <WorkSection />
+    <>
+      <main className="relative z-10 mb-[400px]">
+        <HeroSection />
+        <WorkSection />
+      </main>
       <Footer />
-    </main>
+    </>
   );
 };
 
