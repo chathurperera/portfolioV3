@@ -3,11 +3,11 @@ import Avatar from "../../assets/images/avatar.png";
 
 const About = () => {
   return (
-    <section className="bg-black my-0 mx-auto max-w-[2000px] px-[50px] pt-20">
-      <div className="flex items-center gap-2 mb-5">
+    <section className="my-0 mx-auto max-w-[2000px]  pt-20">
+      {/* <div className="flex items-center gap-2 mb-5">
         <div className="w-2 h-2 rounded-full bg-white"></div>
         <span>About</span>
-      </div>
+      </div> */}
       <div className="flex items-center ">
         <div className="flex-1">
           <p className="text-[30px] font-extralight">

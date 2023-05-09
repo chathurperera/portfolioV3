@@ -9,8 +9,10 @@ const HeroSection = () => {
   return (
     <section className={styles.heroSection}>
       <Navbar />
-      <div className="relative border z-[1000]">
-        <h1>Full stack developer who loves building things on the internet</h1>
+      <div className="relative h-[calc(100vh_-_43px)] z-[1000] flex flex-col justify-between">
+        <h1 className="max-w-[1000px] text-[80px] m-0 p-0 mt-12.5 font-extralight pt-14">
+          Full stack developer who loves building things on the internet
+        </h1>
         <div className="flex">
           <div className="relative flex items-center justify-between pr-2.5">
             <p className="font-['inter'] max-w-[400px] opacity-70">
@@ -19,7 +21,7 @@ const HeroSection = () => {
               vitae tempor leo libero vitae nisi. Pellentesque tempor ac
             </p>
           </div>
-          <div className="right-0 absolute w-[150px]">
+          <div className="right-0 bottom-1 absolute w-[150px]">
             <div className="relative w-[100px]">
               <img
                 src={scrollIndicator}
@@ -35,7 +37,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      {/* <About /> */}
+      <About />
     </section>
   );
 };
