@@ -2,6 +2,8 @@ import React from "react";
 import SocialMediaPill from "./components/SocialMediaPill";
 
 const Footer = () => {
+  const LINKTEXT = ["GITHUB", "LINKEDIN", "INSTARGRAM", "TWITTER"];
+
   return (
     <footer className="fixed bottom-0 z-0 w-full p-9 py-16 flex justify-center flex-col align-middle ">
       <div className=" border-yellow">
@@ -15,10 +17,9 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex align-middle gap-3 justify-center mt-16  w-full ">
-          <SocialMediaPill linkText="GITHUB" />
-          <SocialMediaPill linkText="LINKEDIN" />
-          <SocialMediaPill linkText="INSTARGRAM" />
-          <SocialMediaPill linkText="TWITTER" />
+          {LINKTEXT.map((link) => (
+            <SocialMediaPill linkText={link} />
+          ))}
         </div>
       </div>
     </footer>
